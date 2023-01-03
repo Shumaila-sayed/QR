@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Quicksand:wght@400;500&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+#card {
+    background-color:hsl(0, 0%, 100%) ;
+    border: 2px white;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    text-align: center;
+   width: 170px;
+    font-family: 'Happy Monkey';
+    font-family: 'Quicksand', sans-serif;
+}
+#card img {
+    width: 150px;
+    border-radius: 5px;
+    position: relative;
+    top: 8px;
+}
+#card h2 {
+    font-size: 11px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 800;
+    padding-top: 8px;
+}
+#card p {
+    font-size: 8px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    padding-bottom: 20px;
+}
