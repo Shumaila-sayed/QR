@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Quicksand:wght@400;500&display=swap');
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 10px; 
     text-align: center; 
+    padding: 3em;
 }
 
 .attribution a { 
@@ -10,34 +11,41 @@
 }
 body {
     background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.sr-only {
+    display: none;
 }
 
 #card {
     background-color:hsl(0, 0%, 100%) ;
-    border: 2px white;
-    border-radius: 10px;
+    border: 2em white;
+    border-radius: 0.5em;
     margin: auto;
     display: block;
     text-align: center;
-   width: 170px;
-    font-family: 'Happy Monkey';
+    width: 17em;
     font-family: 'Quicksand', sans-serif;
 }
 #card img {
-    width: 150px;
-    border-radius: 5px;
+    width: 15.5em;
+    border-radius: 0.5em;
     position: relative;
-    top: 8px;
+    top: 0.6em;
 }
 #card h2 {
-    font-size: 11px;
+    font-size: 16px;
     color: hsl(218, 44%, 22%);
     font-weight: 800;
-    padding-top: 8px;
+    padding-top: 0.5em;
+    
 }
 #card p {
-    font-size: 8px;
+    font-size: 12px;
     color: hsl(220, 15%, 55%);
-    font-weight: 400;
-    padding-bottom: 20px;
+    font-weight: 500;
+    padding-bottom: 0.5em;
 }
+ 
